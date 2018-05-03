@@ -2,7 +2,7 @@ package ViewModel
 
 import android.databinding.Bindable
 
-class MainActivityViewModel : BaseObservableViewModel() {
+class MainActivityViewModel(val searchResultDisplayer: SearchResultDisplayer) : BaseObservableViewModel() {
     @Bindable
     var upc : String = ""
         set(value) {
@@ -10,6 +10,6 @@ class MainActivityViewModel : BaseObservableViewModel() {
         }
 
     fun searchClick() {
-
+        searchResultDisplayer.display(upc)
     }
 }
