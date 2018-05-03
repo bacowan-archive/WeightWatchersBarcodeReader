@@ -1,4 +1,4 @@
-package moe.cowan.brendan.myapplication
+package moe.cowan.brendan.weightwatchersbarcodereader
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package moe.cowan.brendan.myapplication
+package moe.cowan.brendan.weightwatchersbarcodereader
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
